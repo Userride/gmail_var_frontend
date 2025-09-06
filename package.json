@@ -11,8 +11,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "vercel-build": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=10.x"
   },
   "browserslist": {
     "production": [
